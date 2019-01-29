@@ -13,14 +13,6 @@ private String account_type;
 protected BigDecimal account_balance;
 private int cust_id; 
 
-//private Customer customer; 
-//
-//public Account() {	
-//}
-//public Account(String account_num) {
-//	this.account_num= account_num; 
-//}
-
 public String getAccount_num() {
 	return account_num;
 }
@@ -40,14 +32,6 @@ public void setAccount_balance(BigDecimal account_balance) {
 	this.account_balance = account_balance;
 } 
 
-//@OneToOne(cascade = CascadeType.ALL)
-//@JoinColumn (name = "CUST_ID")
-//public Customer getCustomer() {
-//	return customer; 
-//}
-//public void setCustomer(Customer customer) {
-//	this.customer = customer; 
-//}
 public int getCust_id() {
 	return cust_id;
 }
