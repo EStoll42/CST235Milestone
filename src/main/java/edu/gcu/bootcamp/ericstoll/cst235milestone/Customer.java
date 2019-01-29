@@ -19,14 +19,7 @@ package edu.gcu.bootcamp.ericstoll.cst235milestone;
 		private String last_name; 
 		private String user_name; 
 		private String password;
-		
-//		public Customer() {
-//			
-//		}
-//		public Customer(int cust_id) {
-//			this.cust_id = cust_id;  
-//		}
-	//	
+			
 		public int getId() {
 			return cust_id;
 		}
