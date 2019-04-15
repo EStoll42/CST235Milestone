@@ -396,25 +396,7 @@ public void adminActionMenu(int option) {
 		public void addEmployee() {
 			
 	        Employee emp = new Employee();
-	        emp.setEmp_Id(1);
-	        emp.setF_Name("Bill");
-	        emp.setL_Name("Palowski");
-	        emp.setUsername("palowski01");
-	        emp.setPassword(EncryptPassword.encrypt("Tripp$ki2211"));
 	        
-	        Employee emp1 = new Employee();
-	        emp1.setEmp_Id(2);
-	        emp1.setF_Name("Eric");
-	        emp1.setL_Name("Stoll");
-	        emp1.setUsername("EStoll");
-	        emp1.setPassword(EncryptPassword.encrypt("Java42"));
-	        
-	        Employee emp2 = new Employee();
-	        emp2.setEmp_Id(3);
-	        emp2.setF_Name("Christina");
-	        emp2.setL_Name("Herman");
-	        emp2.setUsername("KikiHerm");
-	        emp2.setPassword(EncryptPassword.encrypt("!@#KikiHerm"));
 	        
 	        Session session = factory.openSession();
 	        session.beginTransaction();
