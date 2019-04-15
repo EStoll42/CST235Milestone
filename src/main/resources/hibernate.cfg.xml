@@ -6,8 +6,8 @@
  <session-factory>
   <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
   <property name="hibernate.connection.url">jdbc:postgresql://gcubootcamp2018.claofrg4uxlq.us-east-2.rds.amazonaws.com:5432/GCUBootcamp2018</property>
-  <property name="hibernate.connection.username">EStoll</property>
-  <property name="hibernate.connection.password">$Javajava</property>
+  <property name="hibernate.connection.username"></property>
+  <property name="hibernate.connection.password"></property>
   <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
   <!-- CREATES A TABLE EACH TIME -->
   <!-- <property name="hbm2ddl.auto">create</property> -->
